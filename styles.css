@@ -1,0 +1,130 @@
+@font-face {
+  font-family: MrDeHaviland-Regular;
+  src: url(fonts/MrDeHaviland-Regular.ttf);
+}
+body {
+  color: rgb(10, 38, 73);
+  margin: 0;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}
+.cloud1 {
+  position: absolute;
+  right: 400px;
+  top: 40px;
+  
+}
+.bio{
+  width: 50rem;
+  margin: 0 auto;
+}
+h1{
+  color: rgb(0, 65, 73);
+  font-family: MrDeHaviland-Regular;
+  font-size: 100px;
+  margin-bottom: 0;  
+}
+h2{
+  font-size: 2.5rem;
+  font-weight:bold;
+  color: rgb(4, 127, 131);
+  padding-bottom: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+h3{
+  color: rgb(5, 156, 156);
+}
+p{
+  font-size: 130%;
+  line-height: 2;
+  font-weight: 500;
+}
+hr{
+  border: dotted aqua 8px;
+  border-bottom-style: none;
+  width: 5%;
+  margin: 100px auto;
+}
+.text {
+  position: relative;
+  padding-top: 100px;
+}
+.cloud2 {
+  position: absolute;
+  left: 420px;
+}
+.mountain {
+}
+.container1 {
+  background-color: rgb(156, 248, 248);
+  position: relative;
+}
+.container2 {
+  margin-top: 5rem;
+}
+#profile_pic,#skill{
+  border-radius: 50%;
+  width: 250px;
+}
+.skill-row{
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  text-align: left;
+}
+.skill1{
+  float: left;
+  padding-right: 20px;
+}
+.skill2{
+  float: right;
+  padding-left: 20px;
+}
+.btn {
+  background: #34d9d9;
+  background-image: -webkit-linear-gradient(top, #34d9d9, #249696);
+  background-image: -moz-linear-gradient(top, #34d9d9, #249696);
+  background-image: -ms-linear-gradient(top, #34d9d9, #249696);
+  background-image: -o-linear-gradient(top, #34d9d9, #249696);
+  background-image: linear-gradient(to bottom, #34d9d9, #249696);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3bffff;
+  background-image: -webkit-linear-gradient(top, #3bffff, #34d9d9);
+  background-image: -moz-linear-gradient(top, #3bffff, #34d9d9);
+  background-image: -ms-linear-gradient(top, #3bffff, #34d9d9);
+  background-image: -o-linear-gradient(top, #3bffff, #34d9d9);
+  background-image: linear-gradient(to bottom, #3bffff, #34d9d9);
+  text-decoration: none;
+}
+.container3{
+  height: 150px;
+  background-color: aquamarine;
+  margin-top: 50px;
+  padding: 70px 0 0 0;
+}
+a{
+  text-decoration: none;
+  padding: 0 20px;
+  font-weight: bold;
+  color: #249696;
+  margin: 20px;
+}
+a:hover{
+  color: white;
+}
+.container3 p{
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+}
